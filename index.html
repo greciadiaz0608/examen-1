@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <title>Portafolio Grecia Diaz</title>
+    </head>
+
+    <body>
+        <div id="sidemenu" class="menu-collapsed">
+            <!-- header -->
+            <div id="header">
+                <div id="title"><span>Men&uacute;</span></div>
+                <div id="menu-btn">
+                    <div class="btn-hamburger"></div>
+                    <div class="btn-hamburger"></div>
+                    <div class="btn-hamburger"></div>
+                </div>
+            </div>
+            <!-- profile -->
+            <div id="profile">
+                <div id="photo"><img src="IMG/Foto.jpeg" alt="Foto de perfil"></div>
+                <div id="name"><span>Grecia</span></div>
+            </div>
+            <!-- items -->
+            <div id="menu-items">
+                <div class="item">
+                    <a href="acercaDe.html">
+                        <div class="icon"><img src="IMG/acercade.png" alt="Acerca de"></div>
+                        <div class="title">Acerca de</div>
+                    </a>
+                    <div class="item-separator"></div>
+                    <a href="contactame.php">
+                        <div class="icon"><img src="IMG/contact.png" alt="Contactame"></div>
+                        <div class="title">Cont&aacute;ctame</div>
+                    </a>
+                    <div class="item-separator"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const btn = document.querySelector('#menu-btn');
+            const menu = document.querySelector('#sidemenu');
+            btn.addEventListener('click', e =>{
+                menu.classList.toggle("menu-expanded");
+                menu.classList.toggle("menu-collapsed");
+
+                document.querySelector('body').classList.toggle('body-expanded');
+            });
+        </script>
+        <!-- Body -->
+
+        <h1 id="titleI" class="animated zoomInDown" align="center">Inicio</h1>
+        <section id="bodyI" class="home">
+            <img id="foto" src="IMG/Fotodeperfil.jpeg" alt="Foto de Grecia Diaz" width="400" height="450" align="left">
+            <div class="in-flex">
+                <div>Soy Grecia Najera Diaz Estudiante de Ingeniería en Informática en la Universidad Florencio del Castillo actualmente viviendo en Cartago, con ganas de superación 
+                    me encanta la resolución de problemas a lo largo de mi carrera. Mi curiosidad intelectual, mi capacidad cognitiva y mi forma autodidacta me ha impulsado a encontrar respuestas a las preguntas más urgentes.</div>
+            </div>     
+        </section>
+
+        <footer>
+
+            <div class="container-footer-all">
+     
+                 <div class="container-body">
+     
+                     <div class="colum1">
+                         <h1>M&aacute;s informaci&oacute;n de sobre m&iacute;</h1>
+     
+                         <p>En este momento me estoy dedicando solo al estudio, pero mas adelante me gustar&iacute;a entrar a trabajar en alguna empresa donde pueda explotar mis habilidades y mejorar como programador .</p>
+     
+                     </div>
+     
+                     <div class="colum2">
+     
+                         <h1>Redes Sociales</h1>
+     
+                         <div class="row">
+                            <a href="https://www.facebook.com/grecia.diz.6/" target="_BLANK"><img src="IMG/facebook.png"></a>
+                            <label>S&iacute;gueme en Facebook</label>
+                        </div>
+                        <div class="row">
+                            <a href="https://twitter.com/GreciaDiaz06" target="_BLANK"><img src="IMG/twitter.png"></a>
+                            <label>S&iacute;gueme en Twitter</label>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.instagram.com/igreciadiaz/" target="_BLANK"><img src="IMG/instagram.png"></a>
+                            <label>S&iacute;gueme en Instagram</label>
+                        </div>
+                        <div class="row">
+                            <a href=""target="_BLANK"><img src="IMG/google-plus.png"></a>
+                            <label>S&iacute;gueme en Google Plus</label>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.pinterest.com/victoriagrecia/_saved/%22target=%22_BLANK%22%3E<img src="IMG/pinterest.png"></a>
+                            <label>S&iacute;gueme en Pinteres</label>
+                        </div>
+     
+     
+                     </div>
+     
+                     <div class="colum3">
+     
+                         <h1>Informaci&oacute;n Contactos</h1>
+     
+                         <div class="row2">
+                             <img src="IMG/house.png">
+                             <label>Cartago, Costa Rica San Nicolas</label>
+                         </div>
+     
+                         <div class="row2">
+                             <img src="IMG/smartphone.png">
+                             <label>+506-71885340</label>
+                         </div>
+     
+                         <div class="row2">
+                             <img src="IMG/contact.png">
+                              <label>victoriagrecia0608@gmail.com</label>
+                         </div>
+     
+                     </div>
+     
+                 </div>
+     
+             </div>
+     
+             <div class="container-footer">
+                    <div class="footer">
+                         <div class="copyright">
+                             © 2021 Todos los Derechos Reservados | <a href="">Grecia Najera Diaz</a>
+                         </div>
+     
+                         <div class="information">
+                             <a href="">Informaci&oacute;n Personal</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                         </div>
+                     </div>
+     
+                 </div>
+     
+         </footer>
+
+    </body>
+</html>
